@@ -132,10 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				A2627A2E21A1413E00B1B7DB /* AppDelegate.swift */,
-				A2627A5C21A1445E00B1B7DB /* TimetablesContainerViewController.swift */,
-				A2627A5E21A14F7500B1B7DB /* WeeklyTimetableViewController.swift */,
-				A2627A6021A14F8A00B1B7DB /* DailyTimetableViewController.swift */,
 				A2627A3221A1413E00B1B7DB /* Main.storyboard */,
+				A2627A6221A16F9D00B1B7DB /* ViewController */,
+				A2627A6321A16FAD00B1B7DB /* View */,
+				A2627A6421A16FDD00B1B7DB /* Model */,
+				A2627A6521A16FE400B1B7DB /* Entity */,
+				A2627A6621A1702900B1B7DB /* DB */,
 				A2627A3521A1414000B1B7DB /* Assets.xcassets */,
 				A2627A3721A1414000B1B7DB /* LaunchScreen.storyboard */,
 				A2627A3A21A1414000B1B7DB /* Info.plist */,
@@ -159,6 +161,44 @@
 				A2627A5021A1414000B1B7DB /* Info.plist */,
 			);
 			path = ClassScheduleAppUITests;
+			sourceTree = "<group>";
+		};
+		A2627A6221A16F9D00B1B7DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2627A5C21A1445E00B1B7DB /* TimetablesContainerViewController.swift */,
+				A2627A5E21A14F7500B1B7DB /* WeeklyTimetableViewController.swift */,
+				A2627A6021A14F8A00B1B7DB /* DailyTimetableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A2627A6321A16FAD00B1B7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2627A6421A16FDD00B1B7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2627A6521A16FE400B1B7DB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A2627A6621A1702900B1B7DB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 		FCD30BCF5227EE2348670E2A /* Frameworks */ = {
