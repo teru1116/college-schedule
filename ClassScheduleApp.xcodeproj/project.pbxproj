@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6ABC93AE6129ECF18395016F /* Pods_ClassScheduleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6041886680EB88E6FE8A8382 /* Pods_ClassScheduleAppUITests.framework */; };
 		810CA899216A67CF998BD7A9 /* Pods_ClassScheduleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A60A3F3C8873624193E1B06 /* Pods_ClassScheduleApp.framework */; };
+		A25B514F21A24C2B00964DE2 /* WeeklyTimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B514E21A24C2B00964DE2 /* WeeklyTimetableUITests.swift */; };
+		A25B515121A24CF000964DE2 /* WeeklyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B515021A24CF000964DE2 /* WeeklyGridView.swift */; };
 		A2627A2F21A1413E00B1B7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2627A2E21A1413E00B1B7DB /* AppDelegate.swift */; };
 		A2627A3421A1413E00B1B7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2627A3221A1413E00B1B7DB /* Main.storyboard */; };
 		A2627A3621A1414000B1B7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2627A3521A1414000B1B7DB /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		8B1F8E817844904930132B3C /* Pods_ClassScheduleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassScheduleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FF5E3AFA9CB9F94215941B /* Pods-ClassScheduleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassScheduleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassScheduleAppTests/Pods-ClassScheduleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9965E6D9DC1598483FE643B9 /* Pods-ClassScheduleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassScheduleAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassScheduleAppUITests/Pods-ClassScheduleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A25B514E21A24C2B00964DE2 /* WeeklyTimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTimetableUITests.swift; sourceTree = "<group>"; };
+		A25B515021A24CF000964DE2 /* WeeklyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGridView.swift; sourceTree = "<group>"; };
 		A2627A2B21A1413E00B1B7DB /* ClassScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2627A2E21A1413E00B1B7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2627A3321A1413E00B1B7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				A2627A4E21A1414000B1B7DB /* ClassScheduleAppUITests.swift */,
+				A25B514E21A24C2B00964DE2 /* WeeklyTimetableUITests.swift */,
 				A2627A5021A1414000B1B7DB /* Info.plist */,
 			);
 			path = ClassScheduleAppUITests;
@@ -176,6 +181,7 @@
 		A2627A6321A16FAD00B1B7DB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A25B515021A24CF000964DE2 /* WeeklyGridView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -417,6 +423,7 @@
 				A2627A5D21A1445E00B1B7DB /* TimetablesContainerViewController.swift in Sources */,
 				A2627A6121A14F8A00B1B7DB /* DailyTimetableViewController.swift in Sources */,
 				A2627A2F21A1413E00B1B7DB /* AppDelegate.swift in Sources */,
+				A25B515121A24CF000964DE2 /* WeeklyGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25B514F21A24C2B00964DE2 /* WeeklyTimetableUITests.swift in Sources */,
 				A2627A4F21A1414000B1B7DB /* ClassScheduleAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
