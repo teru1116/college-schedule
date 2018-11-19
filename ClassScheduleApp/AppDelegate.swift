@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // initial setup
             UserDefaults.standard.set(5, forKey: "periodCount")
             UserDefaults.standard.set(false, forKey: "existsSaturday")
-            UserDefaults.standard.set(false, forKey: "existsSunday")
+            UserDefaults.standard.set(false, forKey: "existsSaturdayAndSunday")
             
             UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
